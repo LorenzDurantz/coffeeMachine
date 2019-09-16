@@ -1,0 +1,38 @@
+.collection {
+    margin: 20px 10px 100px 10px;
+}
+
+.collection .collection-item.avatar .title {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.collection .collection-item.avatar p {
+    font-family: var(--font-text);
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+.collection .collection-item.avatar .temperature {
+    font-family: var(--font-monospace);
+    font-size: 3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.collection .collection-item.avatar a.btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: var(--color-apc-blue);
+    font-family: var(--font-heading);
+    font-weight: 600;
+}
+
+.fixed-action-btn .btn-floating.btn-large {
+    background-color: var(--color-apc-blue);
+}
+
+.fixed-action-btn ul li .btn-floating {
+    background-color: var(--color-cool-black) !important;
+}

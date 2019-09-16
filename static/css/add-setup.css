@@ -1,0 +1,15 @@
+.fixed-action-btn .btn-floating.btn-large {
+    background-color: var(--color-green-crayola) !important;
+}
+
+.fixed-action-btn.cancel {
+    right: 100px;
+}
+
+.fixed-action-btn.cancel .btn-floating.btn-large {
+    background-color: var(--color-dark-terra-cota) !important;
+}
+
+.first-row {
+    margin-top: 20px;
+}

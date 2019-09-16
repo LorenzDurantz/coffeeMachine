@@ -1,0 +1,60 @@
+ul.collapsible {
+    margin: 20px 10px 20px 10px;
+}
+
+.collapsible-header {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.collapsible-body {
+    font-family: var(--font-text);
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+.collapsible-body .compatibility {
+    padding-left: 30px;
+}
+
+.collapsible-body .compatibility li {
+    list-style-type: disc;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+.collapsible-body h6 {
+    font-family: var(--font-heading);
+}
+
+.icon-1 {
+    color: var(--color-apc-blue);
+}
+
+.icon-2 {
+    color: var(--color-dark-terra-cota);
+}
+
+.icon-3 {
+    color: var(--color-green-crayola);
+}
+
+.icon-4 {
+    color: var(--color-linkedin);
+}
+
+.icon-5 {
+    color: var(--color-office-365);
+}
+
+.collapsible-body .btn {
+    background-color: var(--color-apc-blue);
+    margin-top: 20px;
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    height: unset;
+    width: unset;
+    padding: 7px 20px 7px 20px;
+}

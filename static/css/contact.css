@@ -1,0 +1,85 @@
+.materialbox-caption {
+    font-size: 2rem;
+    font-family: var(--font-logo);
+}
+
+.card .card-title {
+    font-family: var(--font-heading);
+    font-weight: 600;
+}
+
+.card .card-content p {
+    font-size: 1.25rem;
+}
+
+.card .card-action a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2.3rem;
+    border-radius: 50%;
+}
+
+.card .card-action .fa-facebook-messenger {
+    padding-right: 17px;
+    padding-left: 17px;
+    color: var(--color-messenger);
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    margin-right: 5px;
+}
+
+.card .card-action .fa-linkedin {
+    padding-right: 20px;
+    padding-left: 20px;
+    color: var(--color-linkedin);
+}
+
+.feedback-outer-container label {
+    font-family: var(--font-heading);
+}
+
+.feedback-outer-container textarea {
+    font-size: 1.3rem;
+}
+
+.character-counter {
+    font-size: 1rem !important;
+    font-family: var(--font-heading);
+}
+
+.page-footer h5 {
+    font-family: var(--font-logo);
+    font-size: 2rem;
+}
+
+.page-footer {
+    background-color: var(--color-apc-gold);
+}
+
+.page-footer img {
+    width: 100%;
+}
+
+.page-footer p {
+    font-size: 1.3rem;
+}
+
+.page-footer ul li {
+    font-size: 1.2rem;
+}
+
+.heroku {
+    color: var(--color-medium-gray);
+}
+
+.feedback-header {
+    font-family: var(--font-logo);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logo-container {
+    padding: 10px 70px 10px 70px;
+    width: 100%
+}

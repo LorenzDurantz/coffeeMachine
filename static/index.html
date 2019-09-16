@@ -1,0 +1,101 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>AC Controller</title>
+
+    <link rel="icon" href="img/apc-icon250x250.png" />
+
+    <!-- Vendor -->
+    <link rel="stylesheet" href="css/vendor/materialize.min.css" />
+    <link rel="stylesheet" href="css/vendor/icon.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/default.css" />
+
+    <link rel="stylesheet" href="css/navbar.css" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+</head>
+
+<body>
+    <!-- top navigation menu -->
+    <!-- <div class="navbar-fixed" id="top-navbar"> -->
+        <nav class="navbar">
+            <div class="nav-wrapper">
+                <a href="/" class="brand-logo">Log in</a>
+                <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li class="active"><a class="" href="">Controller</a></li>
+                    <li><a href="" class="tooltipped" data-position="bottom" data-tooltip="My Profile">Models Menu</a>
+                    </li>
+                    <li><a href="" class="tooltipped" data-position="bottom" data-tooltip="My Profile">Setups</a></li>
+                </ul>
+            </div>
+        </nav>
+    <!-- </div> -->
+
+    <!-- side navigation menu -->
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <div class="user-view">
+                <div class="background"></div>
+                <a><img class="circle" src="img/profile-placeholder.png"></a>
+                <a><span class="white-text name">Please Login</span></a>
+                <a><span class="white-text email"></span></a>
+            </div>
+        </li>
+        <li><a class="waves-effect">Controller</a></li>
+        <li><a class="waves-effect">Models Menu</a></li>
+        <li><a class="waves-effect">Setups</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a>Contact</a></li>
+    </ul>
+
+    <!-- content -->
+
+    <div class="logo-container">
+        <img src="img/logo.png" />
+        <h5>AC Controller</h5>
+    </div>
+
+    <div class="row">
+        <form class="col s12" action="controller.html">
+            <div class="row">
+                <div class="input-field col s12 m12 l12">
+                    <input id="username" type="text">
+                    <label for="username">Username</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12 m12 l12">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Password</label>
+                </div>
+            </div>
+            <div class="row">
+                <button class="waves-effect waves-light btn" id="submit-login" type="submit" name="action">
+                    Log in
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <!-- SCRIPTS -->
+
+    <!-- vendor -->
+    <script src="js/vendor/jquery-3.4.1.min.js"></script>
+    <script src="js/vendor/materialize.min.js"></script>
+
+    <script src="js/materialize.sidenav.js"></script>
+</body>
+
+</html>

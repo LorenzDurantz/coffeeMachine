@@ -1,0 +1,26 @@
+{
+    "name": "userdes_final",
+    "description": "UI/UX Design and Programming",
+    "version": "0.0.1",
+    "author": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ronnangelolee/userdes_final.git"
+    },
+    "license": "MIT",
+    "main": "server.js",
+    "dependencies": {
+        "express": "3.x"
+    },
+    "engines": {
+        "node": "0.10.x"
+    },
+    "scripts": {
+        "start": "node server.js"
+    },
+    "bugs": {
+        "url": "https://github.com/ronnangelolee/userdes_final/issues"
+    },
+    "homepage": "https://github.com/ronnangelolee/userdes_final#readme",
+    "devDependencies": {}
+}

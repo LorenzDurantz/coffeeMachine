@@ -1,0 +1,58 @@
+:root {
+    --nav-height: 56px;
+}
+
+.navbar {
+    background-color: transparent;
+    height: var(--nav-height);
+    line-height: var(--nav-height);
+    box-shadow: none;
+    padding: 0 1em 0 1em;
+}
+
+.navbar .brand-logo {
+    font-family: var(--font-logo);
+    font-size: 2.2em;
+    line-height: calc(var(--nav-height) + 5px);
+    color: var(--color-dark-gray);
+}
+
+.navbar a,
+.sidenav a {
+    font-family: var(--font-heading);
+    color: var(--color-dark-gray);
+}
+
+.navbar a.sidenav-trigger i {
+    height: var(--nav-height);
+    line-height: var(--nav-height);
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        padding: 0 0 0 0;
+        width: 100%;
+    }
+    .navbar .nav-wrapper {
+        text-align: center;
+    }
+    .navbar .brand-logo {
+        display: unset;
+        text-align: center;
+        height: 100%
+    }
+}
+
+.sidenav .background {
+    background-color: var(--color-apc-blue);
+}
+
+.sidenav .user-view .name {
+    font-family: var(--font-logo);
+    font-size: 2em;
+}
+
+.sidenav .user-view .email {
+    font-family: var(--font-text);
+    font-size: 1.1em;
+}
