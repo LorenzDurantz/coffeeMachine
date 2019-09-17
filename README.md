@@ -3,6 +3,6 @@ Digital mockup
 
 ## Group 7
 Members  
-* Ronn Angelo Lee
-* Reign Mina  
+* Rainer Maalik Mercado
+* Lorenz Miguel Durante 
 
